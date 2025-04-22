@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Accessible Design Co.</title>
+  <link rel="stylesheet" href="style.css" />
+ <div class="logo-nav" role="navigation" aria-label="Main navigation">
+  <img src="coder.jpg"alt="Acessible Design Co.logo">
+       
+      </head>
+<body>
+   
+      <nav>
+        <ul class="nav-list">
+          <li><button><a href="#hero">Home</a></button></li>
+          <li><button><a href="#about">About Us</a></button></li>
+          <li><button><a href="#services">Services</a></button></li>
+          <li><button><a href="#contact">Contact</a></button></li>
+        </ul>
+      </nav>
+    </div>
+  
+
+  <main>
+    <section id="home" class="hero">
+      <h1>Welcome to Accessible Design Co.</h1>
+      <p>Creating beautiful, usable, and inclusive digital experiences.</p>
+      <button aria-label="Learn more about our services">Learn More</button>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <article>
+        <p>We specialize in building accessible, responsive websites for all users.</p>
+      </article>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <div class="services-grid">
+        <article>
+          <h3>Web Design</h3>
+          <p>Responsive and engaging websites.</p>
+        </article>
+        <article>
+          
+          <h3>Accessibility Audits</h3>
+          <p>Ensure your site meets WCAG standards.</p>
+        </article>
+        <article>
+         
+          <h3>Interested?</h3>
+          <p>Expert advice on inclusive design.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input id="name" name="name" type="text" aria-describedby="name" required />
+        <small id="nameHelp">Please enter your full name. Please!</small>
+
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required />
+
+        <label for="subject">Subject</label>
+        <input id="subject" name="subject" type="text" />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Accessible Design Co.</p>
+    <ul>
+      <li><a href="https://www.fakefacebook.com" aria-label="Facebook">Facebook</a></li>
+      <li><a href="https://www.fakeTwitter.com" aria-label="Twitter">Twitter</a></li>
+      <li><a href="https://www.fakeemail@mail.com" aria-label="Email us">Email</a></li>
+    </ul>
+  </footer>
+</body>
+</html>
